@@ -17,4 +17,129 @@
 
 body{
     font-family: "Lato Regular";
+    color: #122D3E;
 }
+
+h1{
+    font-family: "Lato Bold";
+    font-size: 30px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+strong{
+    font-family: "Lato Bold";
+   }
+
+/* HEADER */
+.main-nav {
+    background-color: #122D3E;
+}
+
+#header-homepage .nav-link {
+    color: white;
+    padding:0px 20px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+#header-homepage .nav-item:not(:last-child){
+    border-right: 1px solid white; 
+}
+
+/* CAROUSEL */
+
+.carousel-text{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+    font-size: 37px;
+    letter-spacing: 4px;
+}
+
+.carousel-text2{
+    font-family: "Lato Bold";
+    position: absolute;
+    top: 39%;
+    left: 15%;
+    color: #edd154;
+    font-size: 37px;
+    letter-spacing: 4px;
+}
+
+/* TEXT SECTION */
+
+.description-text{
+    padding: 2% 0% ;
+}
+
+.description-text p{
+    font-size: 20px;
+}
+
+.description-text p:last-of-type{
+    font-size: 16px;
+}
+
+/* DESCRIPTION */
+
+
+.devis h3, .renov h3, .conseil h3{
+    font-size: 1rem;
+    font-family: "Lato Bold";
+    margin: 20px 0;
+}
+
+.devis , .renov p, .conseil p{
+    font-family: "Lato Light";
+    line-height: 29px;
+}
+
+.btn{
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #122D3E;
+    border: none;
+    font-size: 1rem;
+    font-family: "Lato Bold";
+    margin-left: 24px;
+}
+
+
+.btn:hover{
+    background-color: #2E4755;
+}
+
+/* RÉALISATIONS */
+
+#realisations h2{
+    margin-top: 70px;
+    font-family: "Lato Bold";
+    font-size: 30px;
+}
+
+#realisations p{
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+#realisations img{
+    width: 365px;
+    height: 300px;
+}
+
+#realisations h4{
+    font-family: "Lato Bold";
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+#realisations h5{
+    font-family: "Lato Bold";
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
