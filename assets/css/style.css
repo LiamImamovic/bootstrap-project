@@ -55,7 +55,13 @@ strong{
 
 /* CAROUSEL */
 
+.carousel-main h5{
+    font-size: 37px;
+}
 
+.carousel-main h5:last-child{
+    color: #edd154;
+}
 
 /* TEXT SECTION */
 
@@ -212,9 +218,13 @@ strong{
     #header-homepage .nav-item{
         text-align: center;
     }
+
+    .carousel-main h5{
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 992px){
     .main-footer{
         text-align: center;
     }
@@ -231,6 +241,10 @@ strong{
 
     .main-footer p:nth-child(1){
         font-size: 15px;
+    }
+
+    #realisations img{
+        width: 100%;
     }
 }
 
