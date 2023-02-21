@@ -45,30 +45,17 @@ strong{
     letter-spacing: 2px;
 }
 
+#header-homepage .nav-link:hover{
+    color: #edd154;
+}
+
 #header-homepage .nav-item:not(:last-child){
     border-right: 1px solid white; 
 }
 
 /* CAROUSEL */
 
-.carousel-text{
-    position: absolute;
-    top: 30%;
-    left: 15%;
-    color: white;
-    font-size: 37px;
-    letter-spacing: 4px;
-}
 
-.carousel-text2{
-    font-family: "Lato Bold";
-    position: absolute;
-    top: 39%;
-    left: 15%;
-    color: #edd154;
-    font-size: 37px;
-    letter-spacing: 4px;
-}
 
 /* TEXT SECTION */
 
@@ -131,6 +118,13 @@ strong{
     height: 300px;
 }
 
+@media screen and (max-width: 992px) {
+    #realisations img{
+        width: 100%;
+    }
+    
+}
+
 #realisations h4{
     font-family: "Lato Bold";
     font-size: 15px;
@@ -141,5 +135,71 @@ strong{
     font-family: "Lato Bold";
     font-size: 13px;
     margin-bottom: 25px;
+}
+
+/* PROJETS */
+
+#projets h2{
+    margin-top: 70px;
+    font-family: "Lato Bold";
+    font-size: 30px;
+}
+
+#projets h4{
+    font-family: "Lato Bold";
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+#projets p{
+    margin: 0 0 5px;
+}
+
+
+#projets p:nth-child(2){
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#projets a{
+    color: #122D3E;
+    text-decoration: none;
+}
+
+#projets a:hover{
+    color: #edd154;
+}
+
+/* FOOTER */
+
+.main-footer{
+    background-color: #122D3E;
+    color:white;
+    padding: 20px 0 ;
+    margin-top: 60px;
+}
+
+
+.footer-contact{
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+.main-footer p {
+    margin: 0 0 20px;
+}
+
+.main-footer p:nth-child(1){
+    font-family: "Lato Light";
+    font-size: 20px;
+}
+
+.main-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer a:hover{
+    color: #edd154;
 }
 
