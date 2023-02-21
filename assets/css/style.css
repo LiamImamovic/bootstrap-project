@@ -118,13 +118,6 @@ strong{
     height: 300px;
 }
 
-@media screen and (max-width: 992px) {
-    #realisations img{
-        width: 100%;
-    }
-    
-}
-
 #realisations h4{
     font-family: "Lato Bold";
     font-size: 15px;
@@ -201,5 +194,43 @@ strong{
 
 .main-footer a:hover{
     color: #edd154;
+}
+
+/* MEDIA QUERRIES */
+
+@media screen and (max-width: 992px) {
+    #realisations img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 769px){
+    #header-homepage .nav-item:not(:last-child){
+        border-right: none;
+    }
+
+    #header-homepage .nav-item{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .main-footer{
+        text-align: center;
+    }
+
+    .footer-contact{
+        border-left: none;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .main-footer p{
+        margin:  10px 0;
+    }
+
+    .main-footer p:nth-child(1){
+        font-size: 15px;
+    }
 }
 
